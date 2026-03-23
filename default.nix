@@ -2,7 +2,7 @@
 
 python312Packages.buildPythonPackage rec {
   pname = "weathergrabber";
-  version = "0.0.12";
+  version = "0.0.13";
   pyproject = true;
 
   build-system = with python312Packages; [
@@ -12,7 +12,7 @@ python312Packages.buildPythonPackage rec {
 
   src = python312Packages.fetchPypi {
     inherit pname version;
-    hash = "sha256-FARC9QMiYnuz55CYJaxxAGCOJX7NDrbfZ2OjXJrLNww=";
+    hash = "sha256-pjPdR62hDLsTDHtL8yMuQPazQJJdDyc5dKz2DpgyT/k=";
   };
 
   propagatedBuildInputs = with python312Packages; [
