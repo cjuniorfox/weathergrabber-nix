@@ -24,7 +24,7 @@ python312Packages.buildPythonPackage rec {
 
   meta = with lib; {
     description = "A grabber for weather.com data with various output formats";
-    homepage = "https://github.com/cjuniorfox/weather";
+    homepage = "https://github.com/cjuniorfox/weathergrabber";
     license = licenses.mit;
     mainProgram = "weathergrabber";
   };
